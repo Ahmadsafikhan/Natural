@@ -682,7 +682,7 @@ background-color: #ff4282;
    max-width: 100%;
 }
 .gallery-box{
-    background-image: url("/assets/images/about-left-bg.png");
+    background-image: url("../images/about-left-bg.png");
 
 }
 .gallery-box .icon img{
