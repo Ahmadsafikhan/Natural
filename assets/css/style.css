@@ -813,3 +813,45 @@ transform: translate(38%,-50%);
     display: none;
 }
 }
+
+
+/* ==========================
+      Carousel css
+============================= */
+.banner-content h6{
+    background-color: rgba(248,23,129,.1);
+    padding: 9px 14px 5px;
+    display: inline-block;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #f81781;
+}
+.banner-content h1{
+    margin-bottom: 18px;
+    font-size: 48px;
+}
+.banner-content p {
+    margin-bottom: 42px;
+    font-size: 18px;
+}
+.banner-btn-group {
+    
+    display: flex;
+    align-items: center;
+}
+.banner-btn-group .btn:not(:last-child) {
+    margin-right: 12px;
+}
+.btn.btn-lg {
+    padding: 20px 40px;
+}
+.btn span {
+    position: relative;
+    top: 2px;
+}
+.banner-btn-group .btn-black{
+    background-color: black;
+}
