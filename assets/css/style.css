@@ -791,5 +791,8 @@ transform: translate(38%,-50%);
     width: auto!important;
 }
 
-
+.client-section img{
+    max-width: 100%;
+    height: auto;
+}
 
