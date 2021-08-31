@@ -797,16 +797,18 @@ transform: translate(38%,-50%);
 }
 
 .svg-photo img{
-    position: absolute;
-    left: 0;
     top: auto;
-    bottom: -277px;
-    width: 100%;
+    position: absolute;
     height: 100px;
     z-index: 2;
+    bottom: -52px;
+    width: 100%;
+    left: 0;
+    right: 0;
 }
 
-@media only screen and (max-width: 991px){
+
+@media only screen and (max-width: 1245px){
 .svg-photo img{
     display: none;
 }
