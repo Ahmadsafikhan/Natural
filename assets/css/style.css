@@ -801,7 +801,7 @@ transform: translate(38%,-50%);
     position: absolute;
     height: 100px;
     z-index: 2;
-    bottom: -127px;
+    bottom: -150px;
     width: 100%;
     left: 0;
     right: 0;
@@ -854,4 +854,16 @@ transform: translate(38%,-50%);
 }
 .banner-btn-group .btn-black{
     background-color: black;
+}
+.slidings{
+    position: relative;
+}
+.slider-content{
+
+
+position: absolute;
+    /* z-index: 6; */
+    top: 22%;
+    left: 10%;
+    width: 600px;
 }
