@@ -210,7 +210,7 @@ li a:hover{
 
 /* footer */
 .bg-img{
-    background-image: url("/assets/images/footer-bg2.png");
+    background-image: url("assets/images/footer-bg2.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -221,7 +221,7 @@ position: relative;
     display: block;
 }
 .footer.style--two::after{
-    background-image: url("/assets/images/footer-overlay2.png");
+    background-image: url("assets/images/footer-overlay2.png");
 }
 .footer-main{
     padding: 80px 0 15px;
@@ -682,7 +682,7 @@ background-color: #ff4282;
    max-width: 100%;
 }
 .gallery-box{
-    background-image: url("/assets/images/about-left-bg.png");
+    background-image: url("assets/images/about-left-bg.png");
 
 }
 .gallery-box .icon img{
