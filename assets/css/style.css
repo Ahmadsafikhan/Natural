@@ -799,9 +799,9 @@ transform: translate(38%,-50%);
 .svg-photo img{
     top: auto;
     position: absolute;
-    height: 100px;
+    height: 80px;
     z-index: 2;
-    bottom: -150px;
+    bottom: -70px;
     width: 100%;
     left: 0;
     right: 0;
@@ -831,7 +831,7 @@ transform: translate(38%,-50%);
 }
 .banner-content h1{
     margin-bottom: 18px;
-    font-size: 48px;
+    /* font-size: 48px; */
 }
 .banner-content p {
     margin-bottom: 42px;
@@ -867,3 +867,10 @@ position: absolute;
     left: 10%;
     width: 600px;
 }
+@media only screen and (max-width: 895px){
+    .owl-item.active .item img{
+        width: auto;
+        height: 100vh;
+    }
+    }
+    
