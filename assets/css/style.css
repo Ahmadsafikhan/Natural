@@ -832,8 +832,7 @@ transform: translate(38%,-50%);
     }
     .btn.btn-lg{
         margin-bottom: 13px;
-    }
-   
+    }  
 }
 
 @media only screen and (max-width: 370px){
