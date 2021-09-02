@@ -13,3 +13,116 @@
         padding: 14px 23px;
 }
 }
+
+@media only screen and (max-width: 575px){
+    .footer-bottom-content{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 575px){
+.footer-bottom-content>div:not(:last-child) {
+    padding-right: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+}
+@media (max-width: 500px) {
+    .totop {
+      display: none;
+    }
+  }
+
+  @media  (max-width:575px) {
+    .buttons{
+        left: 0%;
+        right: 0%;
+    }
+}
+@media only screen and (min-width: 1200px)
+{
+.price-tab-content {
+    margin-bottom: -100px;
+}
+}
+
+@media only screen and (max-width: 910px)
+{
+    .about-right .video-btn{ 
+    right: 100px;
+}
+}
+
+@media only screen and (max-width: 500px)
+{
+    .gallery-box{ 
+        padding: 12px 23px;
+        width: 116px;
+        height: 118px;
+        margin-top: -117px;
+        position: relative;
+    }
+    .content-more h4{
+        display: none;
+    }
+        
+}
+
+@media only screen and (max-width: 1245px){
+    .svg-photo img{
+        display: none;
+    }
+    }
+
+    @media only screen and (max-width: 550px){
+        .slider-content{
+            top: 27%;
+            
+        }
+     }
+     
+     /* @media only screen and (max-width: 550px){
+        .full-width-content{
+            max-width: 477px;
+            
+        }
+     }
+     @media only screen and (max-width: 420px){
+        .full-width-content{
+            max-width: 362px;
+            
+        }
+     }
+
+     @media only screen and (max-width: 330px){
+         .banner.content h1{
+             font-size: 23px;
+        
+            
+        }
+        .banner.content p{
+            font-size: 15px;
+        }
+     }
+     
+     
+     @media only screen and (max-width: 380px){
+        .full-width-content{
+            max-width: 394px;
+            
+        }
+     }
+     @media only screen and (max-width: 400px){
+.banner-content h1 {
+    font-size: 29px;
+}
+     }
+
+
+
+     @media (max-width:310px){
+
+     
+    .banner.content h1{
+        max-width: 228px;
+    }
+     } */
