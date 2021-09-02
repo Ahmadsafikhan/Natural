@@ -782,7 +782,7 @@ transform: translate(38%,-50%);
 }
 .banner-content h1{
     margin-bottom: 18px;
-    font-size: 45px;
+    font-size: 55px;
 }
 .banner-content p {
     margin-bottom: 42px;
@@ -814,7 +814,6 @@ transform: translate(38%,-50%);
     /* z-index: 6; */
     top: 21%;
     left: 10%;
-    width: 600px;
 }
 @media only screen and (max-width: 895px){
     .owl-item.active .item img{
@@ -834,9 +833,7 @@ transform: translate(38%,-50%);
     .btn.btn-lg{
         margin-bottom: 13px;
     }
-    .btn.btn-lg{
-        padding-top: 13px 21px;
-    }
+   
 }
 
 @media only screen and (max-width: 370px){
@@ -879,3 +876,4 @@ font-size: 35px;
     font-weight: 400;
     color: #f81781;
 }
+
