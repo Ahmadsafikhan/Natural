@@ -756,7 +756,7 @@ transform: translate(38%,-50%);
     position: absolute;
     height: 80px;
     z-index: 2;
-    bottom: -65px;
+    bottom: -1px;
     width: 100%;
     left: 0;
     right: 0;
