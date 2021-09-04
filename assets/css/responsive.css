@@ -55,12 +55,16 @@
 @media only screen and (max-width: 500px)
 {
     .gallery-box{ 
-        padding: 12px 23px;
-        width: 116px;
-        height: 118px;
-        margin-top: -117px;
+        padding: 25px 7px;
+        width: 112px;
+        height: 80px;
+        margin-top: -59px;
         position: relative;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-around;
     }
+    
     .content-more h4{
         display: none;
     }

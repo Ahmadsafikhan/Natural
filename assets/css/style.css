@@ -263,13 +263,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 .widget ul{
     list-style: none;
+    padding-left: 0;
 }
-/* .widget ul li{
-    
-} */
+.widget ul i{
+    margin-right: 10px;
+    color: #f81781;
+}
+
 .widget ul li a{
     color: black;
     text-decoration: none;
+}
+.widget-span{
+    color: #f81781;
 }
 .widget.widget_nav_menu ul li{
     margin-bottom: 10px;
@@ -280,6 +286,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 .menu-container a:hover{
     color: brown;
+}
+.socials{
+    display: flex;
+    margin-top: 15px;
+}
+.socials a{
+    margin-right: 10px;
 }
 .socials a i{
     letter-spacing: 5px;
@@ -664,9 +677,9 @@ background-color: #ff4282;
     width: 25px;
 }
 .gallery-box {
-    padding: 25px 32px;
-    width: 220px;
-    height: 220px;
+    padding: 10px 26px;
+    width: 192px;
+    height: 196px;
     margin-top: -160px;
     position: relative;
 }
@@ -710,14 +723,15 @@ transform: translate(38%,-50%);
 } */
 .video-btn{
     background-color: rgba(248, 23, 128, 0.89);
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        padding: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
         width: 220px;
     height: 150px;
     border-radius: 10px;
     transition: .5s;
+    text-decoration: none;
 }
 .video-btn i{
     color: white;
@@ -818,7 +832,7 @@ transform: translate(38%,-50%);
 @media only screen and (max-width: 895px){
     .owl-item.active .item img{
         width: auto;
-        height: auto;
+        height: 100vh;
     
     }
     }
@@ -875,4 +889,43 @@ font-size: 35px;
     font-weight: 400;
     color: #f81781;
 }
+/* .beautain-select{
+    position: relative;
+} */
+.appointment-content .service-dates .input-group:after {
+    position: absolute;
+    content: "\f0dd";
+    width: 50px;
+    top: 0;
+    right: 0;
+    background-color: rgb(255 211 232 / 97%);
+    bottom: 0;
+    font-family: "Font Awesome 5 Free";
+    /* z-index: 9; */
+    font-weight: 600;
+    line-height: 3;
+    pointer-events: none;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer
 
+}
+.appointment-content .beautain-date-select .input-group:after {
+    content: "\f784";
+}
+.appointment-content .beautain-date-select .input-group:after {
+    position: absolute;
+    /* content: "\f107"; */
+    top: 0;
+    right: 0;
+    width: 50px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    pointer-events: none;
+    
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
