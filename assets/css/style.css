@@ -24,15 +24,19 @@ html{
     position: fixed;
     background-color: #fff;
     z-index: 12;
-    box-shadow: 0 0 10px 0 #f8178070;
+    box-shadow: 0 0 10px 0 #bb17f870;
     margin-top: 0;
     transition: 0.3s ease-in;
 }
 .extra{
     height: 200vh;
 }
+.navbar-brand{
+    transition: 2s ease-in;
+}
 .navbar-brand img{
     width: 150px;
+    transition: 1s ease-in;
 }
 
 .body-wrapper .header-main {
@@ -48,6 +52,7 @@ html{
     align-items: center;
     display: flex;
 }
+
 .navbar-light .navbar-toggler{
     color: rgba(8, 8, 8, 0.5);
    
@@ -73,7 +78,7 @@ html{
 
 
 li a:hover{
-    color: #f81781!important;
+    color: #683AB2!important;
 }
 
 .navbar-brand{
@@ -127,7 +132,7 @@ li a:hover{
     content: "";
 }
 .subtitle2:after{
-    background-color: #f81781;
+    background-color: #683AB2;
 }
 .section-title.style--three h2 {
     margin: 0;
@@ -161,7 +166,7 @@ li a:hover{
     line-height: 1;
     border-radius: 50px;
     color: #fff;
-    background-color: #f81781;
+    background-color: #683AB2;
 }
 .feature{
     padding: 70px 0;
@@ -198,7 +203,7 @@ li a:hover{
 }
 .image-box:hover i{
     /* box-shadow: rgba(0, 0, 0, 0.13) 0px 3px 20px 0px; */
-    color: #f81781;
+    color: #683AB2;
     /* background: transparent; */
     
 }
@@ -221,7 +226,7 @@ position: relative;
     display: block;
 }
 .footer.style--two::after{
-    background-image: url("../images/footer-overlay2.png");
+    background-image: url("../images/imageedit_5_5837209487.png");
 }
 .footer-main{
     padding: 80px 0 15px;
@@ -267,7 +272,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .widget ul i{
     margin-right: 10px;
-    color: #f81781;
+    color: #683AB2;
 }
 
 .widget ul li a{
@@ -275,7 +280,7 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
 }
 .widget-span{
-    color: #f81781;
+    color: #683AB2;
 }
 .widget.widget_nav_menu ul li{
     margin-bottom: 10px;
@@ -394,14 +399,14 @@ width: 120px;
     z-index: 999;
 } */
 .totop {
-    background-color: #f81781;
+    background-color: #683AB2;
     position: fixed;
     bottom: 30px;
     right: 15px;
     z-index: 99;
 }
 .totop {
-    background-color: #f81781;
+    background-color: #683AB2;
     color: #fff;
     display: inline-block;
     font-size: 21px;
@@ -459,7 +464,7 @@ width: 120px;
    
 }
 .buttons .btn-circle i:hover{
-    background-color: #f81781;
+    background-color: #683AB2;
     color: #fff;
 
 }
@@ -495,7 +500,7 @@ width: 120px;
 
 /* appointment-section */
 .appointment-section{
-    background-color: #ffeff7;
+    background-color: #daccf1ad;;
     padding-top: 90px;
     padding-bottom: 70px;
 }
@@ -536,7 +541,7 @@ width: 120px;
     right: 0;
     bottom: 0;
     width: 80%;
-    background-color: rgba(248,23,129,.8);
+    background-color: #683AB2;
     padding: 28px 30px 26px;
     /* -webkit-transform: translate(100%,100%); */
     color: white;
@@ -591,7 +596,7 @@ width: 120px;
 .thumbnails .posted-on{
     border-radius: 50%;
     color: white;
-    background-color: rgba(248, 23, 128, 0.89);
+    background-color: #683AB2;
     font-weight: 600;
 
 }
@@ -617,7 +622,7 @@ width: 120px;
 .pricing{
     padding-top: 70px;
     padding-bottom: 70px;
-    background-color: #ffeff7;
+    background-color: #daccf1ad;
 }
 .media{
     display: flex;
@@ -627,7 +632,7 @@ width: 120px;
     align-items: center;
 }
 .single-price-content .right-content .duration{
-background-color: #ff4282;
+background-color: #683AB2;
     padding: 4px 10px;
     border-radius: 20px;
     color: white;
@@ -670,7 +675,7 @@ background-color: #ff4282;
    max-width: 100%;
 }
 .gallery-box{
-    background-image: url("../images/about-left-bg.png");
+    background-image: url("../images/backphoto.PNG");
 
 }
 .gallery-box .icon img{
@@ -714,6 +719,7 @@ right: 0;
 top: 50%;
 /* -webkit-transform: translate(38%,-50%); */
 transform: translate(38%,-50%);
+
 }
 /* .video-btn .style--four{
     width: 220px;
@@ -722,7 +728,7 @@ transform: translate(38%,-50%);
 
 } */
 .video-btn{
-    background-color: rgba(248, 23, 128, 0.89);
+    background-color: #683AB2;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -742,7 +748,7 @@ transform: translate(38%,-50%);
 .client-section{
     padding-top: 70px;
     padding-bottom: 70px;
-    background-color: #ffeff7;
+    background-color: #daccf1ad;
 }
 .owl-stage{
     transform: translate3d(-1629px, 0px, 0px); 
@@ -784,7 +790,7 @@ transform: translate(38%,-50%);
       Carousel css
 ============================= */
 .banner-content h6{
-    background-color: rgba(248,23,129,.1);
+    background-color: rgba(158, 23, 248, 0.1);
     padding: 9px 14px 5px;
     display: inline-block;
     text-transform: capitalize;
@@ -792,7 +798,7 @@ transform: translate(38%,-50%);
     border-radius: 50px;
     font-size: 12px;
     font-weight: 400;
-    color: #f81781;
+    color: #683AB2;
 }
 .banner-content h1{
     margin-bottom: 18px;
@@ -887,7 +893,7 @@ font-size: 35px;
     border-radius: 50px;
     font-size: 12px;
     font-weight: 400;
-    color: #f81781;
+    color: #683AB2;
 }
 /* .beautain-select{
     position: relative;
@@ -898,7 +904,7 @@ font-size: 35px;
     width: 50px;
     top: 0;
     right: 0;
-    background-color: rgb(255 211 232 / 97%);
+    background-color: rgb(216 166 244 / 97%);
     bottom: 0;
     font-family: "Font Awesome 5 Free";
     /* z-index: 9; */
