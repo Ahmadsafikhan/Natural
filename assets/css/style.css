@@ -60,7 +60,7 @@ html{
 .box-nav{
     background-color: #fff;
     border-radius: 50px;
-    width: 888px;
+    width: 1000px;
 }
 
 .navbar-toggler{
@@ -372,32 +372,6 @@ width: 120px;
       background-color: black;
   }
 
-/* .back-to-top {
-    position: fixed;
-    opacity: 0;
-    visibility: hidden;
-    cursor: pointer;
-    width: 35px;
-    height: 35px;
-    box-shadow: 0 4px 14px rgb(0 0 0 / 10%);
-    font-size: 16px;
-    color: #fff!important;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
-    line-height: 35px;
-    bottom: 10%;
-    right: 4%;
-    transform: scale(0);
-    transition: .3s ease-in;
-    background-color: #f81781;
-}
-.back-to-top .show{
-    transform: scale(1);
-    opacity: 1;
-    visibility: visible;
-    z-index: 999;
-} */
 .totop {
     background-color: #683AB2;
     position: fixed;
@@ -418,7 +392,7 @@ width: 120px;
 }
 
 
-/* Hide the button if the width is less than 500px */
+
 
 /* pricing section */
 
@@ -430,7 +404,6 @@ width: 120px;
 
 .star-rating {
     display: flex;
-    /* -webkit-box-pack: center; */
     justify-content: center;
     margin-bottom: 18px;
     font-size: 13px;
@@ -543,7 +516,6 @@ width: 120px;
     width: 80%;
     background-color: #683AB2;
     padding: 28px 30px 26px;
-    /* -webkit-transform: translate(100%,100%); */
     color: white;
     transform: translate(100%,100%);
     opacity: 0;
@@ -552,7 +524,6 @@ width: 120px;
     
 
 .single-specialist.active .content, .single-specialist:hover .content {
-    /* -webkit-transform: translate(0,0); */
     transform: translate(0,0);
     opacity: 1;
 }
@@ -584,7 +555,6 @@ width: 120px;
     width: 50px;
     height: 50px;
     font-size: 10px;
-    /* display: -webkit-box; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -668,7 +638,6 @@ background-color: #683AB2;
 }
 .about-left img{
     max-width: 100%;
-    /* height: 315px; */
     height: auto;
 }
 .about-right img{
@@ -717,16 +686,9 @@ background-color: #683AB2;
 position: absolute;
 right: 0;
 top: 50%;
-/* -webkit-transform: translate(38%,-50%); */
 transform: translate(38%,-50%);
 
 }
-/* .video-btn .style--four{
-    width: 220px;
-    height: 220px;
-    border-radius: 0;
-
-} */
 .video-btn{
     background-color: #683AB2;
     display: inline-flex;
@@ -829,19 +791,7 @@ transform: translate(38%,-50%);
 .slidings{
     position: relative;
 }
-.slider-content{
-    position: absolute;
-    /* z-index: 6; */
-    top: 21%;
-    left: 10%;
-}
-@media only screen and (max-width: 895px){
-    .owl-item.active .item img{
-        width: auto;
-        height: 100vh;
-    
-    }
-    }
+
     
     @media only screen and (max-width: 479px)
     {
@@ -860,17 +810,41 @@ transform: translate(38%,-50%);
 font-size: 35px;
 }
 }
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 486px){
     .banner-content h1{
  font-size: 37px;
  }
  }
-.owl-item.active .item .slider-content {
-    margin-left: 0px;
-    opacity: 1;
-    transition: 0.8s all ease;
-}
 
+.banner-single-slide {
+        background-color: transparent;
+        background-color: #daccf1ad ;
+        min-height: 100vh;
+        padding: 180px 0 100px;
+        min-height: calc(100vh - 50px);
+        background-position: bottom center;
+        display: flex;
+        align-items: center;
+    }
+    
+.backg1-img{
+    background-image: url("../images/SLIdr1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.backg2-img{
+    background-image: url("../images/SLIDr2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.backg3-img{
+    background-image: url("../images/SLIdr1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
 .contentinslider{
     position: absolute;
     top: 28%;
@@ -907,7 +881,6 @@ font-size: 35px;
     background-color: rgb(216 166 244 / 97%);
     bottom: 0;
     font-family: "Font Awesome 5 Free";
-    /* z-index: 9; */
     font-weight: 600;
     line-height: 3;
     pointer-events: none;
