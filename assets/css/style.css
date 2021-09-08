@@ -35,8 +35,9 @@ html{
     transition: 2s ease-in;
 }
 .navbar-brand img{
-    width: 150px;
+    width: 160px;
     transition: 1s ease-in;
+    margin-bottom: 7px;
 }
 
 .body-wrapper .header-main {
@@ -825,6 +826,7 @@ font-size: 35px;
         background-position: bottom center;
         display: flex;
         align-items: center;
+        /* text-align: center; */
     }
     
 .backg1-img{
@@ -832,6 +834,7 @@ font-size: 35px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom;
+    
 }
 .backg2-img{
     background-image: url("../images/SLIDr2.png");
