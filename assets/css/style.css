@@ -103,8 +103,6 @@ li a:hover{
     font-size: 13px;
     text-transform: uppercase;
     display: inline-block;
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
     transform: rotate(90deg);
     position: absolute;
     left: 10px;
@@ -474,7 +472,7 @@ width: 120px;
 
 /* appointment-section */
 .appointment-section{
-    background-color: #daccf1ad;;
+    background-color: #daccf1ad;
     padding-top: 90px;
     padding-bottom: 70px;
 }

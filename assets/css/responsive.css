@@ -130,5 +130,12 @@
             
         }
      }
+
+     /* ============== Contact page responsiveness */
      
-     
+@media only screen and (max-width: 991px){
+.quick-contact {
+    margin-bottom: 60px;
+    height: auto;
+}
+}
