@@ -139,3 +139,38 @@
     height: auto;
 }
 }
+
+
+@media only screen and (min-width: 992px){
+.pr-35 {
+    padding-right: 35px;
+}
+}
+
+/* @media only screen and (min-width: 576px){
+    .widget .socials-media{
+    justify-content: center;
+    }
+    } */
+    @media only screen and (max-width: 576px){
+.post-author {
+    flex-direction: column;
+}
+    }
+
+    @media only screen and (min-width: 992px){
+.pr-35 {
+    padding-right: 35px;
+}
+    }
+
+
+    @media only screen and (max-width : 400px)
+    {
+        .comments-area .comment ul.children {
+            margin-left: 0px;
+        }
+       .comment-content .d-flex.align-items-center {
+            flex-direction: column;
+        }
+    }
