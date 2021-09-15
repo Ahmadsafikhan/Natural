@@ -204,6 +204,7 @@ li a:hover{
 .contact-backtohome h2{
     font-size: 43px;
     margin-bottom: 20px;
+    color: #000000;
 }
 .list-to-back{
     list-style: none;
@@ -244,7 +245,7 @@ text-decoration: none;
 }
 @media only screen and (max-width: 479px){
 .background-layout.bg-imge {
-    background-position: right;
+    background-position: center;
 }
 }
 
@@ -534,7 +535,30 @@ color: #e6d0fe;
     .comment-content{
         margin-bottom: 20px;
     }
-    
+    .comment-respond{
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+    .comment-respond .comment-reply-title {
+        margin-bottom: 20px;
+    }
+    .comment-reply-title{
+        font-size: 18px;
+    }
+
+    .comment-respond .comment-form .comment-notes {
+        margin-bottom: 30px;
+    }
+    .comment-respond .comment-form .form-control {
+        border: 1px solid rgb(199, 197, 197);
+        margin-bottom: 20px;
+    }
+    textarea.form-control {
+        height: 170px;
+    }
+    .comment-respond .comment-form button{
+        padding: 15px;
+    }
 /* =========== FOOTER =========== */ 
 
 .bg-img{
