@@ -98,7 +98,7 @@ img {
     transition: 2s ease-in;
 }
 .navbar-brand img{
-    width: 200px;
+    width: 160px;
     transition: 1s ease-in;
     margin-bottom: 7px;
 }
@@ -546,17 +546,17 @@ color: #e6d0fe;
         font-size: 18px;
     }
 
-    .comment-respond .comment-form .comment-notes {
+    .comment-respond .needs-validation .comment-notes {
         margin-bottom: 30px;
     }
-    .comment-respond .comment-form .form-control {
+    .comment-respond .needs-validation .form-control {
         border: 1px solid rgb(199, 197, 197);
         margin-bottom: 20px;
     }
     textarea.form-control {
         height: 170px;
     }
-    .comment-respond .comment-form button{
+    .comment-respond .needs-validation button{
         padding: 15px;
     }
 /* =========== FOOTER =========== */ 

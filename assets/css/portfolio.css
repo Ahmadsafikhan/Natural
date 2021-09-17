@@ -93,7 +93,7 @@ html{
     transition: 2s ease-in;
 }
 .navbar-brand img{
-    width: 200px;
+    width: 160px;
     transition: 1s ease-in;
     margin-bottom: 7px;
 }
